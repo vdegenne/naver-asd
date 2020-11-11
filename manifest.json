@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.naver.com/"
+        "*://*.naver.com/*"
       ],
       "js": [
         "inject.js"
